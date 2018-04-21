@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="description" content="黒Bot 取扱説明書 メインページ">
+	<meta name="author" content="ぬくれあ(Nucleareal)">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="site.css">
+	<!--[if lt IE 9]>
+	<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<link rel="shortcut icon" href="https://i.imgur.com/kbK9Xne.png">
+	<link href="bootstrap-4.1.0-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<h1>機能別コマンド一覧</h1>
+	
+	<h2 id="base">基本</h2>
+	<dl>
+		<dt>自己紹介</dt>
+		<dd><iframe class="commandframe" src="./コマンド/introduction.html"></iframe></dd>
+		<dt>はじめまして／登録</dt>
+		<dd><iframe class="commandframe" src="./コマンド/helloandregister.html"></iframe></dd>
+		<dt>登録解除</dt>
+		<dd><iframe class="commandframe" src="./コマンド/userforget.html"></iframe></dd>
+	</dl>
+	<h2 id="rolls">ダイスロール／各種表</h2>
+	<dl>
+		<dt>ダイスロール</dt>
+		<dd><iframe class="commandframe" src="./コマンド/diceroll.html"></iframe></dd>
+		<dt>SW経歴表</dt>
+		<dd><iframe class="commandframe" src="./コマンド/table_swordworld.html"></iframe></dd>
+		<dt>SW成長</dt>
+		<dd><iframe class="commandframe" src="./コマンド/table_swordworld_growth.html"></iframe></dd>
+		<dt>DX経験表</dt>
+		<dd><iframe class="commandframe" src="./コマンド/table_doublecross.html"></iframe></dd>
+	</dl>
+	<h2 id="callname">渾名関係</h2>
+	<dl>
+		<dt>渾名を設定</dt>
+		<dd><iframe class="commandframe" src="./コマンド/callnameupdate.html"></iframe></dd>
+		<dt>渾名を確認</dt>
+		<dd><iframe class="commandframe" src="./コマンド/callnameask.html"></iframe></dd>
+		<dt>すべての登録ユーザーの渾名を確認</dt>
+		<dd><iframe class="commandframe" src="./コマンド/universecallname.html"></iframe></dd>
+	</dl>
+	<h2 id="tables">卓管理</h2>
+	<dl>
+		<dt>卓作成</dt>
+		<dd><iframe class="commandframe" src="./コマンド/tablemake.html"></iframe></dd>
+		<dt>卓のシステムを設定</dt>
+		<dd><iframe class="commandframe" src="./コマンド/tableaddsystem.html"></iframe></dd>
+		<dt>卓の参加者を確認</dt>
+		<dd><iframe class="commandframe" src="./コマンド/tableask.html"></iframe></dd>
+		<dt>卓の参加者を渾名で確認</dt>
+		<dd><iframe class="commandframe" src="./コマンド/tableaskcallname.html"></iframe></dd>
+		<dt>卓の参加者に通知</dt>
+		<dd><iframe class="commandframe" src="./コマンド/tablenotice.html"></iframe></dd>
+		<dt>卓の参加者にサブマスターを含めて通知</dt>
+		<dd><iframe class="commandframe" src="./コマンド/tablenoticewithsm.html"></iframe></dd>
+		<dt>卓を削除</dt>
+		<dd><iframe class="commandframe" src="./コマンド/tabledelete.html"></iframe></dd>
+		<dt>卓にサブマスターを追加</dt>
+		<dd><iframe class="commandframe" src="./コマンド/tableaddsm.html"></iframe></dd>
+		<dt>卓のサブマスターを確認</dt>
+		<dd><iframe class="commandframe" src="./コマンド/tableasksm.html"></iframe></dd>
+		<dt>自分が参加している卓を確認</dt>
+		<dd><iframe class="commandframe" src="./コマンド/tableaskjoin.html"></iframe></dd>
+		<dt>卓参加者を特定のボイチャに移動</dt>
+		<dd><iframe class="commandframe" src="./コマンド/tablemovevoice.html"></iframe></dd>
+	</dl>
+	<h2 id="permissions">権限関係</h2>
+	<dl>
+		<dt>権限を設定</dt>
+		<dd><iframe class="commandframe" src="./コマンド/permissionupdate.html"></iframe></dd>
+		<dt>権限を確認</dt>
+		<dd><iframe class="commandframe" src="./コマンド/permissionask.html"></iframe></dd>
+	</dl>
+	<h2 id="zabuton">座布団関係</h2>
+	<dl>
+		<dt>座布団付与</dt>
+		<dd><iframe class="commandframe" src="./コマンド/zabutonadd.html"></iframe></dd>
+		<dt>座布団剥奪</dt>
+		<dd><iframe class="commandframe" src="./コマンド/zabutonremove.html"></iframe></dd>
+		<dt>座布団全剥奪</dt>
+		<dd><iframe class="commandframe" src="./コマンド/zabutonremoveall.html"></iframe></dd>
+	</dl>
+	<h2 id="yellow">イエローカード関係</h2>
+	<dl>
+		<dt>イエローカード付与</dt>
+		<dd><iframe class="commandframe" src="./コマンド/yellowadd.html"></iframe></dd>
+		<dt>イエローカード揉み消し</dt>
+		<dd><iframe class="commandframe" src="./コマンド/yellowremoveall.html"></iframe></dd>
+	</dl>
+	<h2 id="voice">ボイス関係(実装予定, 時期未定)</h2>
+	<dl>
+		<dt>ボイチャに黒を呼ぶ(未実装)</dt>
+		<dd><iframe class="commandframe" src="./コマンド/voicecall.html"></iframe></dd>
+		<dt>ボイチャから黒を追い出す(未実装)</dt>
+		<dd><iframe class="commandframe" src="./コマンド/voiceremove.html"></iframe></dd>
+	</dl>
+	<h2 id="unknown">分類不可能</h2>
+	<dl>
+		<dt>熱情の律動</dt>
+		<dd><iframe class="commandframe" src="./コマンド/firecall.html"></iframe></dd>
+		<dt>人生、宇宙、すべての答え</dt>
+		<dd><iframe class="commandframe" src="./コマンド/universeanswer.html"></iframe></dd>
+	</dl>
+	<h2 id="sexharass">セクハラ関係</h2>
+	<dl>
+		<dt>パンツの色</dt>
+		<dd><iframe class="commandframe" src="./コマンド/sexharass.html"></iframe></dd>
+	</dl>
+	
+	<!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="bootstrap-4.1.0-dist/js/bootstrap.min.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+<script>
+$('iframe')
+.on('load', function(){
+  try {  
+    $(this).height(this.contentWindow.document.documentElement.scrollHeight);
+  } catch (e) {
+  }
+})
+.trigger('load');
+</script>
+</body>
+</html>

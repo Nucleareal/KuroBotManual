@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="author" content="ぬくれあ(Nucleareal)">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="site.css">
+	<!--[if lt IE 9]>
+	<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<link rel="shortcut icon" href="https://i.imgur.com/kbK9Xne.png">
+</head>
+<body>
+	<dl>
+		<dt>ダイスロール</dt>
+		<dd>
+		<ul>
+			<li>分類：ダイスロールコマンド</li>
+			<li>権限：権天使以上</li>
+			<li>書式：「黒、[diceparams...][addtion...]」</li>
+			<li>例文：
+				<ul>
+					<li>「黒、2d6」→ 6面ダイス2個をロールする</li>
+					<li>「黒、2d6@10」→ 6面ダイス2個をロールし、合計が10以上である限り振り足す</li>
+					<li>「黒、100d6C4」→ 6面ダイス100個をロールし、4以上の目を出したダイスのみ振り足す</li>
+					<li>「黒、30dx7+2」→ ダブルクロス用 ダイス30個をC値7で振り、ダブルクロスの判定を行い最終的に固定値2を足す</li>
+					<li>「黒、K100@7$2F12&10gf+2」ソード・ワールド2.0用 威力100をC値7、ダイス目への修正+2、ダイス目指定12、クリティカル毎に威力10上昇、グレイテストフォーチュンで振り、最終的に固定値2を足す</li>
+				</ul>
+			</li>
+			<li>概要：ダイスロールを行う。パラメータの順番は指定された順番でないと受け付けてくれない。他、ダイスの数は計算で指定できない。<br>
+			有効な指定:「黒、K100@7+10」「黒、1d100*1d100」「黒、2d6@10+K100@7+21dx7」<br>
+			無効な指定:「黒、K100+10@7」「黒、(4/2)d100」</li>
+		</ul>
+		</dd>
+	</dl>
+</body>
+</html>

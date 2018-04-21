@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>黒Bot 取扱説明書 メニュー</title>
+	<meta charset="utf-8">
+	<meta name="description" content="黒Bot 取扱説明書 メニュー">
+	<meta name="author" content="ぬくれあ(Nucleareal)">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="site.css">
+	<!--[if lt IE 9]>
+	<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<link rel="shortcut icon" href="https://i.imgur.com/kbK9Xne.png">
+	<link href="bootstrap-4.1.0-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	
+	<h1>コマンド</h1>
+	<ul>
+		<li><div onclick="obj=document.getElementById('bypermission').style; obj.display=(obj.display=='none')?'block':'none';">
+				<a style="cursor:pointer;">権限別に探す</a>
+			</div>
+			<div id="bypermission" style="display:none;clear:both;">
+				<ul>
+					<li><a href="./commands_permission.html#master" target="main">マスターのみ</a></li>
+					<li>神以上</li>
+					<li>熾天使以上</li>
+					<li>智天使以上</li>
+					<li>座天使以上</li>
+					<li>主天使以上</li>
+					<li>力天使以上</li>
+					<li>能天使以上</li>
+					<li>権天使以上</li>
+					<li>大天使以上</li>
+					<li>天使以上</li>
+					<li>人間以上</li>
+				</ul>
+			</div></li>
+		<li><div onclick="obj=document.getElementById('byfunction').style; obj.display=(obj.display=='none')?'block':'none';">
+			<a style="cursor:pointer;">機能別に探す</a>
+		</div><div id="byfunction" style="display:none;clear:both;">
+				<ul>
+					<li><a href="./commands_function.html#base" target="main">基本</a></li>
+					<li><a href="./commands_function.html#rolls" target="main">ダイスロール／各種表</a></li>
+					<li><a href="./commands_function.html#callname" target="main">渾名</a></li>
+					<li><a href="./commands_function.html#tables" target="main">卓管理</a></li>
+					<li><a href="./commands_function.html#permissions" target="main">権限</a></li>
+					<li><a href="./commands_function.html#zabuton" target="main">座布団</a></li>
+					<li><a href="./commands_function.html#yellow" target="main">イエローカード</a></li>
+					<li><a href="./commands_function.html#voice" target="main">ボイス</a></li>
+					<li><a href="./commands_function.html#unknown" target="main">分類不可能</a></li>
+					<li><a href="./commands_function.html#sexharass" target="main">セクハラ</a></li>
+				</ul>
+			</div></li>
+	</ul>
+</body>
+</html>

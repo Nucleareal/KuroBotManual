@@ -1,0 +1,43 @@
+@charset "UTF-8";
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+	display:block;
+}
+
+.fullwidth{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+dt{
+	background: #DFDFDF;
+	font-size: 2em;
+}
+
+h2{
+	background: #000000 !important;
+	color: #FFFFFF !important;
+}
+
+html {
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+
+.menu{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.main{
+	width: 80%;
+	height: 100%;
+	float: left;
+}
+
+.commandframe {
+	width: 90%;
+}
