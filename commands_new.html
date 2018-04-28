@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="description" content="黒Bot 取扱説明書 メインページ">
+	<meta name="author" content="ぬくれあ(Nucleareal)">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="site.css">
+	<!--[if lt IE 9]>
+	<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<link rel="shortcut icon" href="https://i.imgur.com/kbK9Xne.png">
+	<link href="bootstrap-4.1.0-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<h1>最近追加されたコマンド一覧</h1>
+	
+	<dl>
+		<dt>SW成長(優先度つき)</dt>
+		<dd><iframe class="commandframe" src="./コマンド/table_swordworld_growthwith.html"></iframe></dd>
+		<dt>卓予定を特定の時間になったら通知</dt>
+		<dd><iframe class="commandframe" src="./コマンド/tablediscal.html"></iframe></dd>
+		<dt>卓参加者を普段の通話に移動</dt>
+		<dd><iframe class="commandframe" src="./コマンド/tablemovegeneral.html"></iframe></dd>
+		<dt>復唱要求</dt>
+		<dd><iframe class="commandframe" src="./コマンド/repeat.html"></iframe></dd>
+		<dt>ボイスでの復唱要求</dt>
+		<dd><iframe class="commandframe" src="./コマンド/repeatvoice.html"></iframe></dd>
+	</dl>
+	
+	<!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="bootstrap-4.1.0-dist/js/bootstrap.min.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+<script>
+$('iframe')
+.on('load', function(){
+  try {  
+    $(this).height(this.contentWindow.document.documentElement.scrollHeight);
+  } catch (e) {
+  }
+})
+.trigger('load');
+</script>
+</body>
+</html>
